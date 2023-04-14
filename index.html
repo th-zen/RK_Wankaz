@@ -34,15 +34,134 @@
       </svg>
     </div>
     <div class="video_container">
-      <video src="media/pictures/video.mp4" class="video"></video>
+      <video src="media/pictures/video.mp4" class="video" id="myVideo"></video>
       <div class="textgrid">
         <h2>machen videos</h2>
         <p>
           Beschreibung eines Atemberaubenden Videos wo zumindest das Titelbild
           für den Look der Website in schwarz - weiß sein sollte
         </p>
-        <button><img src="media/pictures/Press to play.svg" /></button>
+        <button>
+          <svg
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+            width="100%"
+            height="100%"
+          >
+            <image id="playBtn"
+              href="media/pictures/press_to_play.svg"
+              width="100%"
+              height="100%"
+              preserveAspectRatio="none"
+            />
+          </svg>
+        </button>
+        <script src="javascript.js"></script>
       </div>
+    </div>
+    <div class="abstract_container">
+      <svg
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+        width="100%"
+        height="100%"
+      >
+        <image
+          href="media/pictures/Wankaz_Logo_white.svg"
+          width="100%"
+          height="100%"
+          preserveAspectRatio="none"
+        />
+      </svg>
+      <h2>schreiben<br />auch abstracts</h2>
+      <p>
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum."
+      </p>
+      <button>
+        <svg
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          width="100%"
+          height="100%"
+        >
+          <image
+            href="media/pictures/press_to_play_blue.svg"
+            width="100%"
+            height="100%"
+            preserveAspectRatio="none"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="poster_container">
+        <img class="poster">
+        <div class="poster_text">
+          <h2>cooles poster<br>made by</h2>
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum."</p>
+            <svg
+            viewBox="0 0 100 100"
+            preserveAspectRatio="none"
+            width="100%"
+            height="100%"
+          >
+            <image
+              href="media/pictures/Wankaz_Logo_blue.svg"
+              width="100%"
+              height="100%"
+              preserveAspectRatio="none"
+            />
+          </svg>
+        </div>
+        <div class="gap_div"></div>
+    </div>
+
+
+    <div class="team_container">
+      <div class="image-container">
+        <span style="--i: 1">
+          <img
+            src="media/pictures/teampic_florian.jpg"
+          />
+          <p>web<br>florian thausing</p>
+        </span>
+        <span style="--i: 2">
+          <img
+            src="media/pictures/teampic_sebastian.jpg"
+          />
+          <p>research<br>sebastian leitgeb</p>
+        </span>
+        <span style="--i: 3">
+          <img
+            src="media/pictures/teampic_benjamin.jpg"
+          />
+          <p>video<br>benjamin höll</p>
+        </span>
+      </div>
+  
+      <div class="btn-container">
+        <button class="btn" id="prev"><</button>
+        <button class="btn" id="next">></button>
+      </div>
+  
+    </div>
+    <script src="app.js"></script>
+
+    <div class="impressum_container">
+      <p>Terms</p>
+      <p>agb</p>
+      <p>research</p>
     </div>
   </body>
 </html>
