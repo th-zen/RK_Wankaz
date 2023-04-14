@@ -1,0 +1,89 @@
+* {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #0008BE;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0 100px;
+}
+
+nav a {
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+
+.wankaz_big_container {
+    position: relative;
+    z-index: 1;
+}
+
+.video_container {
+    position: relative;
+}
+
+.video {
+    position: relative; 
+    top: -100px;
+    z-index: 0;
+    width: 100%;
+}
+
+.textgrid {
+    position: absolute;
+    bottom: 200px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 120px auto 80px;
+    grid-row-gap: 20px;
+    color:#ffffff;
+}
+
+.textgrid h2 {
+    margin: 0;
+    grid-row: 1/2;
+    grid-column: 1/6;
+    text-align: left;
+    font-size: 100px;
+}
+
+.textgrid p {
+    margin: 0;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    text-align: left;
+    font-size: 20px;
+}
+
+.textgrid button {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    background-color: #0008BE;
+    color: #ffffff;
+    font-family: "megabase", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow:none;
+    border: none;
+}
+
+.textgrid button image {
+    height: 100%;
+    width: 100%;
+}
